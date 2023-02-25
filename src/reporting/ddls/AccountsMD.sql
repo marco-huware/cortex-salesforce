@@ -42,7 +42,6 @@ AS (
     Accounts.OwnerId,
     Accounts.ParentId,
     Accounts.Phone,
-    Accounts.RecordTypeId,
     Accounts.ShippingCity,
     Accounts.ShippingCountry,
     Accounts.ShippingGeocodeAccuracy,

@@ -15,7 +15,6 @@ RecordTypeId,RecordTypeId,STRING
 Status,Status,STRING
 Reason,Reason,STRING
 Origin,Origin,STRING
-Language,Language,STRING
 Subject,Subject,STRING
 Priority,Priority,STRING
 Description,Description,STRING
@@ -23,8 +22,6 @@ IsClosed,IsClosed,BOOL
 ClosedDate,ClosedDatestamp,TIMESTAMP
 IsEscalated,IsEscalated,BOOL
 OwnerId,OwnerId,STRING
-SlaStartDate,SlaStartDatestamp,TIMESTAMP
-SlaExitDate,SlaExitDatestamp,TIMESTAMP
 CreatedDate,CreatedDatestamp,TIMESTAMP
 CreatedById,CreatedById,STRING
 LastModifiedDate,LastModifiedDatestamp,TIMESTAMP

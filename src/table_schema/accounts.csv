@@ -3,7 +3,6 @@ Id,AccountId,STRING
 MasterRecordId,MasterRecordId,STRING
 Name,Name,STRING
 Type,Type,STRING
-RecordTypeId,RecordTypeId,STRING
 ParentId,ParentId,STRING
 BillingStreet,BillingStreet,STRING
 BillingCity,BillingCity,STRING

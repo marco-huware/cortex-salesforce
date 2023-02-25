@@ -32,7 +32,6 @@ AS (
     Cases.EntitlementId,
     Cases.Isclosed,
     Cases.IsEscalated,
-    Cases.Language,
     Cases.MasterRecordId,
     Cases.Origin,
     Cases.OwnerId,
@@ -50,9 +49,7 @@ AS (
     Cases.LastModifiedById,
     Cases.LastModifiedDatestamp,
     Cases.LastReferencedDatestamp,
-    Cases.LastViewedDatestamp,
-    Cases.SlaExitDatestamp,
-    Cases.SlaStartDatestamp
+    Cases.LastViewedDatestamp
   FROM
     `{{ project_id_src }}.{{ dataset_cdc_processed_sfdc }}.cases` AS Cases
 );
