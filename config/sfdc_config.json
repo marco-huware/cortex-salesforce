@@ -6,7 +6,7 @@
     "deploySFDC": true,
     "turboMode": true,
     "projectIdSource": "cortex-salesforce-hw-demo",
-    "projectIdTarget": "cortex-salesfroce-hw-demo",
+    "projectIdTarget": "cortex-salesforce-hw-demo",
     "location": "europe-west3",
     "languages": [
         "E",
