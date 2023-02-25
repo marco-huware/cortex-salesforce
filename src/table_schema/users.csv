@@ -13,11 +13,11 @@ City,City,STRING
 State,State,STRING
 PostalCode,PostalCode,STRING
 Country,Country,STRING
-Latitude,Latitude,FLOAT64
-Longitude,Longitude,FLOAT64
+Latitude,Latitude,NUMERIC
+Longitude,Longitude,NUMERIC
 GeocodeAccuracy,GeocodeAccuracy,STRING
 Email,Email,STRING
-EmailPreferencesAutoBcc,EmailPreferencesAutoBcc,BOOL
+EmailPreferencesAutoBcc,EmailPreferencesAutoBcc,BOOLEAN
 SenderEmail,SenderEmail,STRING
 SenderName,SenderName,STRING
 Signature,Signature,STRING
@@ -27,7 +27,7 @@ MobilePhone,MobilePhone,STRING
 Alias,Alias,STRING
 CommunityNickname,CommunityNickname,STRING
 BadgeText,BadgeText,STRING
-IsActive,IsActive,BOOL
+IsActive,IsActive,BOOLEAN
 TimeZoneSidKey,TimeZoneSidKey,STRING
 UserRoleId,UserRoleId,STRING
 LocaleSidKey,LocaleSidKey,STRING
@@ -44,7 +44,7 @@ CreatedById,CreatedById,STRING
 LastModifiedDate,LastModifiedDatestamp,TIMESTAMP
 LastModifiedById,LastModifiedById,STRING
 SystemModstamp,SystemModstamp,TIMESTAMP
-ForecastEnabled,ForecastEnabled,BOOL
+ForecastEnabled,ForecastEnabled,BOOLEAN
 ContactId,ContactId,STRING
 AccountId,AccountId,STRING
 CallCenterId,CallCenterId,STRING
@@ -61,5 +61,5 @@ LastReferencedDate,LastReferencedDatestamp,TIMESTAMP
 BannerPhotoUrl,BannerPhotoUrl,STRING
 SmallBannerPhotoUrl,SmallBannerPhotoUrl,STRING
 MediumBannerPhotoUrl,MediumBannerPhotoUrl,STRING
-IsProfilePhotoActive,IsProfilePhotoActive,BOOL
+IsProfilePhotoActive,IsProfilePhotoActive,BOOLEAN
 IndividualId,IndividualId,STRING

@@ -6,7 +6,7 @@ NamespacePrefix,NamespacePrefix,STRING
 Description,Description,STRING
 BusinessProcessId,BusinessProcessId,STRING
 SobjectType,SobjectType,STRING
-IsActive,IsActive,BOOL
+IsActive,IsActive,BOOLEAN
 CreatedById,CreatedById,STRING
 CreatedDate,CreatedDatestamp,TIMESTAMP
 LastModifiedById,LastModifiedById,STRING

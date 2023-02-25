@@ -18,9 +18,9 @@ Origin,Origin,STRING
 Subject,Subject,STRING
 Priority,Priority,STRING
 Description,Description,STRING
-IsClosed,IsClosed,BOOL
+IsClosed,IsClosed,BOOLEAN
 ClosedDate,ClosedDatestamp,TIMESTAMP
-IsEscalated,IsEscalated,BOOL
+IsEscalated,IsEscalated,BOOLEAN
 OwnerId,OwnerId,STRING
 CreatedDate,CreatedDatestamp,TIMESTAMP
 CreatedById,CreatedById,STRING
