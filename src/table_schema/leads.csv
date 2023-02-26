@@ -5,7 +5,6 @@ LastName,LastName,STRING
 FirstName,FirstName,STRING
 Salutation,Salutation,STRING
 Name,Name,STRING
-RecordTypeId,RecordTypeId,STRING
 Title,Title,STRING
 Company,Company,STRING
 Street,Street,STRING

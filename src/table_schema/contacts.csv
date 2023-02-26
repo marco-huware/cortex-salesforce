@@ -6,7 +6,6 @@ LastName,LastName,STRING
 FirstName,FirstName,STRING
 Salutation,Salutation,STRING
 Name,Name,STRING
-RecordTypeId,RecordTypeId,STRING
 OtherStreet,OtherStreet,STRING
 OtherCity,OtherCity,STRING
 OtherState,OtherState,STRING
@@ -27,7 +26,6 @@ Phone,Phone,STRING
 Fax,Fax,STRING
 MobilePhone,MobilePhone,STRING
 HomePhone,HomePhone,STRING
-OtherPhone,OtherPhone,STRING
 AssistantPhone,AssistantPhone,STRING
 ReportsToId,ReportsToId,STRING
 Email,Email,STRING
