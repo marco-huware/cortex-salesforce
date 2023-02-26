@@ -13,8 +13,8 @@ City,City,STRING
 State,State,STRING
 PostalCode,PostalCode,STRING
 Country,Country,STRING
-Latitude,Latitude,NUMERIC
-Longitude,Longitude,NUMERIC
+Latitude,Latitude,FLOAT
+Longitude,Longitude,FLOAT
 GeocodeAccuracy,GeocodeAccuracy,STRING
 Email,Email,STRING
 EmailPreferencesAutoBcc,EmailPreferencesAutoBcc,BOOLEAN

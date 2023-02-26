@@ -5,8 +5,8 @@ RecordTypeId,RecordTypeId,STRING
 Name,Name,STRING
 Description,Description,STRING
 StageName,StageName,STRING
-Amount,Amount,NUMERIC
-Probability,Probability,NUMERIC
+Amount,Amount,FLOAT
+Probability,Probability,FLOAT
 CloseDate,CloseDate,DATE
 Type,Type,STRING
 NextStep,NextStep,STRING

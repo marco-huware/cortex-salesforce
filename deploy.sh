@@ -21,6 +21,7 @@
 
 GCS_LOGS_BUCKET="$1"
 TGT_BUCKET="$2"
+DEPLOY_CDC="$3"
 
 echo -e "🦄🦄🦄 Running Cortex Data Foundation modules for SalesForce.com 🔪🔪🔪\n"
 
@@ -34,4 +35,4 @@ fi
 
 gcloud builds submit . \
         --config=cloudbuild.sfdc.yaml \
-        --substitutions=_GCS_LOGS_BUCKET="${GCS_LOGS_BUCKET}",_TGT_BUCKET="${TGT_BUCKET}"
+        --substitutions _GCS_LOGS_BUCKET="${GCS_LOGS_BUCKET}",_TGT_BUCKET="${TGT_BUCKET}",_DEPLOY_CDC="${DEPLOY_CDC}"

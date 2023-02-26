@@ -13,8 +13,8 @@ City,City,STRING
 State,State,STRING
 PostalCode,PostalCode,STRING
 Country,Country,STRING
-Latitude,Latitude,NUMERIC
-Longitude,Longitude,NUMERIC
+Latitude,Latitude,FLOAT
+Longitude,Longitude,FLOAT
 GeocodeAccuracy,GeocodeAccuracy,STRING
 Phone,Phone,STRING
 Email,Email,STRING
@@ -25,7 +25,7 @@ LeadSource,LeadSource,STRING
 Status,Status,STRING
 Industry,Industry,STRING
 Rating,Rating,STRING
-AnnualRevenue,AnnualRevenue,NUMERIC
+AnnualRevenue,AnnualRevenue,FLOAT
 NumberOfEmployees,NumberOfEmployees,INTEGER
 OwnerId,OwnerId,STRING
 IsConverted,IsConverted,BOOLEAN
