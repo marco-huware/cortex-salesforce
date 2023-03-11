@@ -18,7 +18,7 @@
 from datetime import timedelta
 import logging
 
-from pendulum import datetime,now  # Airflow datetime dependency
+from pendulum import datetime, now as utcnow  # Airflow datetime dependency
 
 from airflow import DAG
 from airflow.contrib.operators.bigquery_operator import BigQueryOperator
@@ -45,7 +45,7 @@ default_args = {
 @provide_session
 def check_raw_if_deployed(session=None, **kwargs):
     del kwargs
-    now = now(tz='UTC') #datetime.utcnow()
+    now = utcnow(tz='UTC') #datetime.utcnow()
     raw_dag_id = "SFDC_EXTRACT_TO_RAW_${base_table}"
 
     active_runs = DagRun.find(dag_id=raw_dag_id, state=State.RUNNING)
