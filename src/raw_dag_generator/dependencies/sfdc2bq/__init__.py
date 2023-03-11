@@ -33,7 +33,7 @@ def sfdc2bq_replicate(
         dataset_name: str,
         output_table_name: str,
         include_non_standard_fields: typing.Union[bool,
-                                                  typing.Iterable[str]] = False,
+                                                  typing.Iterable[str]] = True,
         exclude_standard_fields: typing.Iterable[str] = None) -> None:
     """Method to extract data from Salesforce to BigQuery
 
