@@ -56,7 +56,6 @@ AS (
     Contacts.OtherStreet,
     Contacts.OwnerId,
     Contacts.Phone,
-    Contacts.RecordTypeId,
     Contacts.ReportsToId,
     Contacts.Salutation,
     Contacts.PhotoUrl,
