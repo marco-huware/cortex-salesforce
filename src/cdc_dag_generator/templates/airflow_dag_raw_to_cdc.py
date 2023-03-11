@@ -23,7 +23,8 @@ from pendulum import datetime  # Airflow datetime dependency
 from airflow import DAG
 from airflow.contrib.operators.bigquery_operator import BigQueryOperator
 from airflow.exceptions import AirflowRescheduleException
-from airflow.models.dag import DagRun, State, DagBag
+from airflow.models.dag import DagRun, State
+from airflow.models.dagbag import DagBag
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.utils.db import provide_session
