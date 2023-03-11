@@ -51,7 +51,6 @@ AS (
     Contacts.OtherGeocodeAccuracy,
     Contacts.OtherLatitude,
     Contacts.OtherLongitude,
-    Contacts.OtherPhone,
     Contacts.OtherPostalCode,
     Contacts.OtherState,
     Contacts.OtherStreet,
