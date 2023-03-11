@@ -8,7 +8,7 @@ BusinessProcessId,BusinessProcessId,STRING
 SobjectType,SobjectType,STRING
 IsActive,IsActive,BOOL
 CreatedById,CreatedById,STRING
-CreatedDate,CreatedDate,TIMESTAMP
+CreatedDate,CreatedDatestamp,TIMESTAMP
 LastModifiedById,LastModifiedById,STRING
-LastModifiedDate,LastModifiedDate,TIMESTAMP
+LastModifiedDate,LastModifiedDatestamp,TIMESTAMP
 SystemModstamp,SystemModstamp,TIMESTAMP

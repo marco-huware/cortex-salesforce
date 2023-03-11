@@ -49,7 +49,6 @@ AS (
     Leads.Phone,
     Leads.PostalCode,
     Leads.Rating,
-    Leads.RecordTypeID,
     Leads.Salutation,
     Leads.State,
     Leads.Status,

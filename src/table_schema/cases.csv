@@ -20,12 +20,12 @@ Subject,Subject,STRING
 Priority,Priority,STRING
 Description,Description,STRING
 IsClosed,IsClosed,BOOL
-ClosedDate,ClosedDate,TIMESTAMP
+ClosedDate,ClosedDatestamp,TIMESTAMP
 IsEscalated,IsEscalated,BOOL
 OwnerId,OwnerId,STRING
-CreatedDate,CreatedDate,TIMESTAMP
+CreatedDate,CreatedDatestamp,TIMESTAMP
 CreatedById,CreatedById,STRING
-LastModifiedDate,LastModifiedDate,TIMESTAMP
+LastModifiedDate,LastModifiedDatestamp,TIMESTAMP
 LastModifiedById,LastModifiedById,STRING
 SystemModstamp,SystemModstamp,TIMESTAMP
 ContactPhone,ContactPhone,STRING
@@ -33,8 +33,8 @@ ContactMobile,ContactMobile,STRING
 ContactEmail,ContactEmail,STRING
 ContactFax,ContactFax,STRING
 Comments,Comments,STRING
-LastViewedDate,LastViewedDate,TIMESTAMP
-LastReferencedDate,LastReferencedDate,TIMESTAMP
+LastViewedDate,LastViewedDatestamp,TIMESTAMP
+LastReferencedDate,LastReferencedDatestamp,TIMESTAMP
 Data_Quality_Description__c,Data_Quality_Description__c,STRING
 Data_Quality_Score__c,Data_Quality_Score__c,FLOAT64
 Opportunity__c,Opportunity__c,STRING

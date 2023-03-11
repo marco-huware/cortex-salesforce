@@ -15,9 +15,9 @@ Description,Description,STRING
 IsDeleted,IsDeleted,BOOL
 AccountId,AccountId,STRING
 IsClosed,IsClosed,BOOL
-CreatedDate,CreatedDate,TIMESTAMP
+CreatedDate,CreatedDatestamp,TIMESTAMP
 CreatedById,CreatedById,STRING
-LastModifiedDate,LastModifiedDate,TIMESTAMP
+LastModifiedDate,LastModifiedDatestamp,TIMESTAMP
 LastModifiedById,LastModifiedById,STRING
 SystemModstamp,SystemModstamp,TIMESTAMP
 IsArchived,IsArchived,BOOL
@@ -25,7 +25,7 @@ CallDurationInSeconds,CallDurationInSeconds,INT64
 CallType,CallType,STRING
 CallDisposition,CallDisposition,STRING
 CallObject,CallObject,STRING
-ReminderDateTime,ReminderDateTime,TIMESTAMP
+ReminderDateTime,ReminderDateTimestamp,TIMESTAMP
 IsReminderSet,IsReminderSet,BOOL
 RecurrenceActivityId,RecurrenceActivityId,STRING
 IsRecurrence,IsRecurrence,BOOL
@@ -40,7 +40,7 @@ RecurrenceInstance,RecurrenceInstance,STRING
 RecurrenceMonthOfYear,RecurrenceMonthOfYear,STRING
 RecurrenceRegeneratedType,RecurrenceRegeneratedType,STRING
 TaskSubtype,TaskSubtype,STRING
-CompletedDateTime,CompletedDateTime,TIMESTAMP
+CompletedDateTime,CompletedDateTimestamp,TIMESTAMP
 DB_Activity_Type__c,DB_Activity_Type__c,STRING
 eContacts__Bundle__c,eContacts__Bundle__c,STRING
 Data_Quality_Description__c,Data_Quality_Description__c,STRING
