@@ -16,7 +16,7 @@
         "USD"
     ],
     "SFDC": {
-        "createMappingViews": true,
+        "createMappingViews": false,
         "datasets": {
             "cdc": "RAW_CDC",
             "raw": "RAW",
