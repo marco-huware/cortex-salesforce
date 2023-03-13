@@ -32,10 +32,10 @@ def extract_data_from_sfdc(
     output_table_name: str,
 ) -> None:
 
-    sf_setting = {"username": "admin.salesforce@huware.com",
-                "password": "Huware2021!",
-                "consumer_key": "3MVG91BJr_0ZDQ4szU7OX8ztsx8M2rHe2NWpBHecWLk3StvDGOoO.MZlp5NVJS10O9NuBGI_OBHhn9mxO5N6M",
-                "consumer_secret": "1D3817C44B487193505C7A96D2E4E3F4E255F1D878D6924FD2D5A0DF3A4EA9D9"
+    sf_setting = {"username": "USERNAME",
+                "password": "PASSWORD",
+                "consumer_key": "CLIENT_KEY",
+                "consumer_secret": "SECRET"
     }
 
     simple_sf_connection = Salesforce(**sf_setting)
